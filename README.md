@@ -115,7 +115,7 @@
 -> Bir sınıfın nesnesi doğrudan bir fonksiyon gibi çağırıldığında çalışmasını sağlayan özel bir fonksiyondur. Nesneyi fonksiyon gibi kullanmamıza olanak tanır. 
 
 38- Data classta neden val - var zorunludur?
--> Bu alanların nesne ömrü boyunca sabit olmasını ya da değişken olmasını sağlar.
+-> Değişkenlerin üye değişken gibi olması sağlanır.
 
 39- inline fonksiyon nedir? Neden kullanılır?
 -> Kotlinde inline fonksiyonu özel olarak HOF'un performansını artırmak amacıyla kullanbiliriz. Bir fonksiyon inline olarak işaretlendiğinde bu fonksiyon gövdesi çağırıldığı her yere yeleştirilir. Bu özellikle lamda ifadeleri ile kullanıldığında ek nesne oluşturma maliyetinden kurtarmış olur.
@@ -155,3 +155,30 @@
 
 51- Abstrack classların nesnesi oluşturulamadığı halde constructoru olabiliyor. Bu durumda constructor ne işe yarar?
 ->
+
+52- Stack ve heap nedir?
+-> memory 2 bölüme ayırılır: stack __ küçük sabit boyutlu bellek alanı, hızlı, yerel değişkenler tutulur ,,, heap __ büyük bellek alanı, yavaş, uzun ömürlü veriler ve nesneler tutulur.
+
+53- Escape karakterler nelerdir?
+-> belirli karakterleri, sembolleri veya kontrol dizilerini temsil etmek için kullanılır. \n \r \t \\ \' \" gibi 
+
+54- Unicode karakter nedir?
+-> Unicode, her bir karaktere benzersiz bir sayı (kod noktası) atayarak, farklı dillerdeki metinlerin tutarlı bir şekilde işlenmesini sağlar.
+
+55- Null değerler memoryde yer kaplamaz mı?
+-> Kaplar 
+
+56- Fonksiyonları neden kullanırız?
+-> Kodun tekrar kullanılabilirliğini, okunabilirliğini artırır.
+
+57- overload nedir?
+-> Aynı isimde birden fazla fonksiyon tanımlanması işlemidir.
+
+58- Local function nedir?
+-> bir fonksiyonun bir başka fonksiyonun içinde tanımlanmasıdır. Yani, bir fonksiyonun sadece belirli bir başka fonksiyonun içinde erişilebilir ve kullanılabilir olmasını sağlar. 
+
+59- Expression ve state kullanımları nelerdir?
+-> Expression kullanımı: İfadeler, genellikle bir değeri hesaplamak, bir işlem gerçekleştirmek veya bir sonuç üretmek için kullanılır. TEK SATIR State kullanımı: programın mevcut durumunu izlemek, değiştirmek ve yönetmek için kullanılır BLOK
+
+60- Bir classın sahip olabileceği elemanlar nelerdir?
+-> 
