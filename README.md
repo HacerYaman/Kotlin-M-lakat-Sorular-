@@ -134,3 +134,24 @@
 
 44- Kotlinde classların varsayılan davranışı hangi yöndedir?
 -> Kotlinde tüm sınıflar varsayılan olarak finaldir. Developerin miras alınacak classları open ile işaretlemesi gerekmektedir.
+
+45-Abstract class ile interface farkı nedir?
+-> Interfaceler state tutmazlar.
+
+46- abstract ile open classın farkı nedir?
+-> Abstract classlar override etme zorunluyken open classlar zorunlu değiller.
+
+47- classlarda constructor kısmındaki değişkenlerin var veya val ile işaretlenmesi ne fayda sağlar?
+-> Bu değişkenlere classın herhangi bir yerinden erişim sağlayabiliriz. Üye değişken gibi davranırlar. Aksi durumda sadece init bloğundan erişebiliriz.
+
+48- Smart cast (akıllı tür dönüşümü) nedir?
+-> Derleyicinin belirli koşullar altında bir nesnenin türünü otomatik olarak dönüştürme yeteneğini ifade eder.
+
+49- String nedir?
+-> String metinleri sakladığımız veri türüdür. Immutabledir. Char dizisidir.
+
+50- Type conversion nedir?
+-> Tür dönüşümü bir veri türündeki bir değeri başka bir veri türüne dönüştürme işlemidir.
+
+51- Abstrack classların nesnesi oluşturulamadığı halde constructoru olabiliyor. Bu durumda constructor ne işe yarar?
+->
