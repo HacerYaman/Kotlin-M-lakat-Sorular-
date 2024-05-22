@@ -182,3 +182,67 @@
 
 60- Bir classın sahip olabileceği elemanlar nelerdir?
 -> 
+
+61- Method overriding nedir?
+-> alt sınıfın üst sınıftaki bir methodu kendi ihtiyaçlarına göre yeniden tanımlamasıdır.
+
+62- Overriding property açıklaması nedir?
+-> Hem fonksiyonlar hem propertyler open olmak şartıyla override edilebilir.
+
+63- Property nedir? (özellik)
+-> Kotlinde property bir sınıfın verilerini kapsülleyen ve bunlara erişimi kontrol eden mekanizmadır. var  veya var olabilir.
+
+64- Backing field nedir?
+-> Propertylerin değerlerinin saklandığı alan.
+
+-----------------------------
+65- Polimorfizm nedir?
+-> Polimorfizm "birçok form" anlamına gelir. Polimorfizm, aynı arayüz veya temel sınıf kullanılarak farklı nesnelerin farklı şekillerde davranabilme yeteneğini ifade eder. Başka bir deyişle, polimorfizm sayesinde aynı işlemi farklı nesneler üzerinde gerçekleştirebiliriz ve bu nesneler, kendi özel uygulamalarını kullanarak bu işlemi yerine getirirler.
+
+66- Enum classların sabitleri arka planda nasıl bulunur?
+->
+
+67- "ANKARA" stringindeki k harfini nasıl elde ederiz?
+->  [2] . indexe giderek
+
+68- "2" ile "2.5" i == ile karşılaştırdığımda ne verir?
+->
+
+69- infix fonksiyonların performansa etkisi var mı?
+-> 
+
+70- data classlar ile data objeler arasında ne fark var?
+->
+
+71- sealed classların scoopu nedir yani nereden erişilir?
+->
+
+72- when yapıları içinde else casei hangi durumda gerekli olmaz?
+->
+
+73- iki arrayi kıyaslerken "==" kullanabilir miyiz? kullanırsak sonuç ne olur?
+->
+
+74- genericlerin in varyantı olması durumu nedir?
+->
+
+75- 10L ve 10UL olarak değer atarsak tipi ne olur?
+->
+
+76- companion object başka bir sınıfı miras alabilir mi ya da bir sınıfı implement edebilir mi?
+->
+
+77- bir enum class içine open fun yazarsak bunu nasıl override edebiliriz?
+->
+
+78- sealed classın ya da içindeki ondan miras alan sabitlerin nesnesi oluşturulabilir mi?
+->
+
+79- extension functionun bir dosya içinde top level olarak tanımlanması ile bir classın içinde tanımlanması arasında ne fark olur?
+->
+
+80- Bir interface içinde nasıl property tanımlıyoruz?
+-> 
+
+81- char tipi değişkenler boxed mıdır unboxed mıdır?
+->
