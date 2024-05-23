@@ -246,3 +246,32 @@
 
 81- char tipi değişkenler boxed mıdır unboxed mıdır?
 ->
+
+--------------------------
+
+82- abstract class nedir? özellikleri nelerdir?
+-> soyut sınıf olarak adlandırılır ve diğer sınıflar tarafından genişletilmesi amaçlanır. Nesnesi oluşturulamayan ve alt sınıflar tarafından genişletilerek kullanılabilen sınıflardır.
+Detay bilgi içermemelidir. abstract fonksiyonlar bodye sahip olamaz. abstrack fonksiyonların override zorunluluğu vardır. 
+
+83- interface nedir?
+-> bir sınıfın belirli bir işlevselliği uygulamasını zorunlu kılmak için kullanılan bir yapıdır. interfaceler bir sınıfın belirli methodları ve özellikleri içermesi gerektiğini belirtir.
+bir sınıf birden fazla interface implement edebilir
+doğrudan nesnesi oluşturulamaz. interfaceleri uygulayan sınıflardan nesne oluşturulabilir
+
+84- interfaceler hangi durumda class gibi davranır javada?
+-> object expression kullanımında 
+
+85- hangi durumda override zorunlu değildir?
+-> fonksiyonun bodysi varsa override zorunlu değil
+
+86- data classlarda constructorlar ne işe yarar?
+-> classların taşıdığı verileri tanımlar
+
+87- data classların şartları nelerdir?
+-> en az 1 parametresi olmalı. parametreler val veya var olmalı, abstract open sealed veya inner olamazlar
+
+88- enum class nedir neden kullanılır?
+-> kullanım amacı veri kümelerini gruplanabilir yapmatır. yapısı gereği finaldır. nesnesi oluşturulamaz. her enum sabiti final name ve final ordinala sahip. miras alınamaz. içindeki sabitler bulunduğu classı miras olan başka classlardır.
+
+89- sealed class nedir ve özellikleri nelerdir?
+-> classların gruplandırılması için kullanılır. sınırlı bir hiyerarşi içinde belli türdeki alt sınıfları tanımlamak için kullanılan sınıf türü. özellikleri: alt sınıflar sadece aynı modul ya da dosya içinde olmalı, daha güçlü kapsülleme sağlar. hiyerarşiyi idenin kontrolünden alıp developera verir
