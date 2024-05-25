@@ -275,3 +275,24 @@ doğrudan nesnesi oluşturulamaz. interfaceleri uygulayan sınıflardan nesne ol
 
 89- sealed class nedir ve özellikleri nelerdir?
 -> classların gruplandırılması için kullanılır. sınırlı bir hiyerarşi içinde belli türdeki alt sınıfları tanımlamak için kullanılan sınıf türü. özellikleri: alt sınıflar sadece aynı modul ya da dosya içinde olmalı, daha güçlü kapsülleme sağlar. hiyerarşiyi idenin kontrolünden alıp developera verir
+
+90- enum classın sealed classtan farkı nedir?
+-> enum classlara objesini üretmeden erişebilirim arka planda statiktir.
+
+91- generics yerine neden any kullanmıyorum?
+-> any type safety sağlamıyor.
+
+92- spread operatörü nedir?
+-> bir diziyi fonksiyona iletmek için * kullanılır.
+
+93- contentEquals() ve contentDeepEquals() ne için kullanılır?
+-> iki arrayin öğeleri tamamen aynı mı ve aynı sırada mı onu kontrol eder.
+
+94- dizilerde "==" ne işlevdedir?
+->  referans kontrolü yapar
+
+95- is ve !is ne için kullanılır
+-> type kontrolü
+
+96- while aslında nedir?
+-> for un içine if konulmasıdır
